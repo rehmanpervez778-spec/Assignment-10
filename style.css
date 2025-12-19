@@ -1,0 +1,150 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px;
+    
+}
+
+.color-row{
+     
+    display: flex;
+    flex-direction: row;  
+}
+
+/* Different color formats */
+
+ .color-name{
+    background-color: red;
+    display: inline-block;
+    border: 1px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    
+
+}
+
+.color-hex{
+     background-color: #00ffee;
+       display: inline-block;
+    border: 1px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+     
+}
+
+.color-short-hex{
+     background-color: #f0f;
+      display: inline-block;
+    border: 1px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+     
+}
+
+.color-rgb{
+     background-color:rgb(255, 250, 0);
+      display: inline-block;
+    border: 1px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+     
+}
+
+.color-hsl{
+     background-color:hsl(200, 60%, 50%,);
+      display: inline-block;
+    border: 1px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    
+}
+
+/* banner */
+
+.banner{
+     background-color: black;
+      background-image: url(./img/Islamabad.webp);
+     width: 100%;
+     height: 90%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+  
+}
+
+.center-text{
+     position: absolute;
+     top: 100%;
+     left: 50%;
+}
+
+
+
+/* gradient profile card */
+
+.card{
+     background-color: black;
+     width: 350px;
+     height: 350px;
+          /* linear-gradient-background */
+     background: linear-gradient(135deg, #667eea, #764ba2);
+          /* RGBA border */
+     border: 4px solid rgba(255, 255, 255, 0.4);
+          /* box-shadow */
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+          /* rounded-corners */
+     border-radius: 20px;
+     padding: 30px;
+     box-sizing: border-box;
+
+          /* center-text-inside-card */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+     text-align: center;
+
+}
+
+          /* text color using HSL */
+     .card h2{
+          color: hsl(0, 0%, 100%);
+          margin-bottom: 10px;
+     }
+
+     .card p{
+          color: hsl(0, 0%, 90%);
+          margin-bottom: 25px;
+     }
+
+     /* button with radialGradient */
+     .card button{
+          padding: 10px 25px;
+          border: none;
+          border-radius: 30px;
+          cursor: pointer;
+
+          background: radial-gradient(circle, #ffdd00, #ff8800);
+          color: #000;
+     }
